@@ -4,11 +4,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "echo 'No tests to run' && exit 0",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
+    "husky": "^8.0.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
